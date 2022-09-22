@@ -13,8 +13,6 @@
 
 Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/5.4/installation#installation)
 
-Alternative installation is possible without local dependencies relying on [Docker](#docker). 
-
 Clone the repository
 
     git clone git@github.com:aureanemoraes/crud-employees.git
@@ -60,7 +58,7 @@ You can now access the server at http://localhost:8000
 
 ## Database seeding
 
-**Populate the database with seed data with relationships which includes users, articles, comments, tags, favorites and follows. This can help you to quickly start testing the api or couple a frontend and start using it with ready content.**
+**Populate the database with seed data with relationships which includes users, articles, comments, tags, favorites and follows. This can help you to quickly start testing the  or couple a frontend and start using it with ready content.**
 
 Open the DatabaseSeeder and set the property values as per your requirement
 
@@ -94,12 +92,12 @@ Run the database seeder and you're done
 
 ----------
 
-# Testing API
+# Testing 
 
 Run the laravel development server
 
     php artisan serve
 
-The api can now be accessed at
+The can now be accessed at
 
-    http://localhost:8000/api
+    http://localhost:8000/
