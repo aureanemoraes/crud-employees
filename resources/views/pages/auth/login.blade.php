@@ -2,11 +2,11 @@
 
 @section('content')
 <div class="d-flex justify-content-center align-items-center flex-column w-100 h-100">
-    @error('email')
+    @if($errors->any())
         <div class="alert alert-sm alert-danger" role="alert">
-            {{ $message }}
+            {{ $errors->first() }}
         </div>
-    @enderror
+    @endif
     <div class="card text-bg-light mb-3 shadow-lg p-3 mb-5 bg-body rounded">
         <div class="card-header">
             Login
